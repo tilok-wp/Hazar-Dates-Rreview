@@ -10,8 +10,8 @@ const GraphAreaChart = () => {
                 data={graphData} >
                 <YAxis />
                 <Tooltip />
-                <Area type="monotone" dataKey="revenue" stackId="1" stroke="#8884d8" fill="#8884d8" />
-                <Area type="monotone" dataKey="investment" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
+                <Area type="monotone" dataKey="revenue" stackId="1" stroke="#4b76e3" fill="#4b76e3" />
+                <Area type="monotone" dataKey="investment" stackId="1" stroke="#e3994b" fill="#e3994b" />
                 <XAxis dataKey={'month'}></XAxis>
             </AreaChart>
         </ResponsiveContainer>

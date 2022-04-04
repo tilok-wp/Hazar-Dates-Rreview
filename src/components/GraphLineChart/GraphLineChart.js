@@ -7,7 +7,7 @@ const GraphLineChart = () => {
     return (
         <ResponsiveContainer width="100%" height="100%">
             <LineChart data={graphData}>
-                <Line type="monotone" dataKey="sell" stroke="blue" />
+                <Line type="monotone" dataKey="sell" stroke="#4b76e3" />
                 <YAxis></YAxis>
                 <Tooltip />
                 <Legend />

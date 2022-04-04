@@ -5,14 +5,18 @@ import Review from '../Review/Review';
 const Reviews = () => {
     const [reviews, setReviews] = useReviews()
     return (
-        <div className='grid md:grid-cols-3 gap-5'>
-            {
-                reviews.map(item => <Review
-                    key={item.id}
-                    item={item}
-                ></Review>)
-            }
-        </div>
+        <div className='py-24 px-5 md:px-0'>
+            < h3 className='text-center text-3xl font-medium decoration-gray-600 uppercase' > Our all client's reviews</h3>
+            < div className='container mx-auto grid md:grid-cols-3 gap-5 py-8' >
+
+                {
+                    reviews.map(item => <Review
+                        key={item.id}
+                        item={item}
+                    ></Review>)
+                }
+            </div >
+        </div >
     );
 };
 
