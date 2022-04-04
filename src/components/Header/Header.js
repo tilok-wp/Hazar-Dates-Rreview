@@ -6,16 +6,18 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <header className='container mx-auto sticky top-0 md:flex justify-between text-center py-3 '>
-            <div><h1 className='text-3xl'> <strong className='text-blue-400'>Hajar</strong>  dates</h1></div>
-            <nav>
-                <CustomLink to={'/'}>Home</CustomLink>
-                <CustomLink to={'/reviews'}>Reviews</CustomLink>
-                <CustomLink to={'/dashboard'}>Dashboard</CustomLink>
-                <CustomLink to={'/blogs'}>Blogs</CustomLink>
-                <CustomLink to={'/about'}>About</CustomLink>
+        <header className='text-center py-5 bg-slate-50 sticky top-0 z-10'>
+            <div className='container mx-auto md:flex justify-between'>
+                <div><h1 className='text-3xl'> <strong className='text-blue-400'>Hajar</strong>  dates</h1></div>
+                <nav >
+                    <CustomLink to={'/'}>Home</CustomLink>
+                    <CustomLink to={'/reviews'}>Reviews</CustomLink>
+                    <CustomLink to={'/dashboard'}>Dashboard</CustomLink>
+                    <CustomLink to={'/blogs'}>Blogs</CustomLink>
+                    <CustomLink to={'/about'}>About</CustomLink>
+                </nav>
 
-            </nav>
+            </div>
         </header>
     );
 };

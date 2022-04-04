@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Blog from '../Blog/Blog';
 
 const Blogs = () => {
-    return (
-        <div>
+    const [blogData, setBlogData] = useState([])
+    useEffect(() => {
+        fetch('blogData.json')
+            .then(req => req.json())
+            .then(data => setBlogData(data))
+    }, [])
 
-        </div>
+    return (
+
+        <div className='blog-container container mx-auto grid md:grid-cols-3'>
+            {
+                blogData.map(item => <Blog key={item.id} item={item}></Blog>)
+            }
+        </div >
     );
 };
 
