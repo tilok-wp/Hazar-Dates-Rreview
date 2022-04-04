@@ -6,6 +6,7 @@ import Review from '../Review/Review';
 const Home = () => {
     const [reviews, setReviews] = useReviews()
 
+
     return (
         <div>
             <ProductBanner></ProductBanner>
@@ -13,6 +14,7 @@ const Home = () => {
 
             <div className='grid md:grid-cols-3 gap-5'>
                 {
+
                     reviews.map(item => <Review
                         key={item.id}
                         item={item}

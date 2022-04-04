@@ -6,7 +6,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <header className='sticky top-0 md:flex justify-between md:mx-8 text-center py-3'>
+        <header className='container mx-auto sticky top-0 md:flex justify-between text-center py-3 '>
             <div><h1 className='text-3xl'> <strong className='text-blue-400'>Hajar</strong>  dates</h1></div>
             <nav>
                 <CustomLink to={'/'}>Home</CustomLink>
