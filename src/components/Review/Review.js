@@ -8,8 +8,13 @@ const Review = (props) => {
                 <img className='rounded-full border-4' src={userImg} alt="user" />
             </div>
             <h3 className='text-2xl mb-3'>{name}</h3>
-            <p>{reviewText}</p>
-            <p className='mt-3 text-left'>Ratings: <strong>{ratings}</strong></p>
+            <p title={reviewText}>{
+                reviewText.length > 80 ? reviewText.slice(0, 80) + " ..." : reviewText
+            }</p>
+            <div>
+                <p className='mt-3 text-left'>Ratings: <strong>{ratings}</strong></p>
+
+            </div>
         </div>
     );
 };

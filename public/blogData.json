@@ -12,6 +12,6 @@
   {
     "id": "624adeb13e3011521ef9050c",
     "blogTitle": "Difference Between Block vs Inline-block.",
-    "description": "Do ullamco dolore cupidatat cupidatat esse amet. Nulla fugiat Lorem quis id duis magna nulla est aute enim pariatur dolor. Laboris Lorem commodo magna laboris consequat ad ullamco exercitation eiusmod excepteur fugiat laboris officia.\r\n"
+    "description": "A block element has some whitespace above and below. Block element care about any side element. Block element contain full width of browser space for every single block element. Block elements are : <div> <h1>-<h6> <p> and others. An inline-block element is placed its content size. inline-block element keep right side position to set another inline and inline-block element. Inline-block element wrap as a whole. \r\n"
   }
 ]
