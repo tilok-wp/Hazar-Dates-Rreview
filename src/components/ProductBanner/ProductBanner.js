@@ -15,7 +15,7 @@ const ProductBanner = () => {
                 </p>
                 <ul className='mt-3'>
                     <li> <CheckCircleIcon class="inline-block h-4 mr-2 w-4 text-blue-500" />NATURALLY SWEET AND DELICIOUS</li>
-                    <li> <CheckCircleIcon class="inline-block h-4 mr-2 w-4 text-blue-500" /> GUILT FREE</li>
+                    <li> <CheckCircleIcon class="inline-block h-4 mr-2 w-4 text-blue-500" />GUILT FREE</li>
                     <li> <CheckCircleIcon class="inline-block h-4 mr-2 w-4 text-blue-500" />ORGANIC DRIED DATES</li>
                 </ul>
                 <div>

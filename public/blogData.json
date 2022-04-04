@@ -2,12 +2,12 @@
   {
     "id": "624adeb17c821c33be02a206",
     "blogTitle": "What is Context API and Purpose? ",
-    "description": "Incididunt sint dolore adipisicing ullamco ut. Esse cillum esse aliqua duis commodo. Elit nisi est reprehenderit cillum do minim mollit dolor et. Occaecat culpa quis adipisicing aliquip tempor fugiat. Ut magna aliquip ad veniam ex laborum proident. Laborum consectetur duis sit labore dolore deserunt consectetur id nisi tempor sint labore.\r\n"
+    "description": "Context API create a simple and more easier method for prop-drilling. It help to passing unique data from all level in our application. It can also support parent or upper stage data changes. Context provide a way to pass data all components tree without all level props data passing. It can support children stage to parent stage data passing. Context create more easy and useful feature to create our Moran applications.   \r\n"
   },
   {
     "id": "624adeb180b73dc4ca65082f",
     "blogTitle": "What is semantic tag?",
-    "description": "Incididunt enim elit cupidatat in proident Lorem sint eu ea veniam ipsum enim. Id dolor ex velit velit. Dolore mollit nisi et pariatur laborum ullamco esse id id pariatur do cillum ad pariatur. Voluptate laboris qui ex sunt eiusmod anim magna sunt. Magna pariatur aliqua ad pariatur fugiat quis dolor sint do et do. Commodo velit Lorem non magna consequat sint dolore tempor laboris.\r\n"
+    "description": "A semantic element and tag explain clearly about developer adn browser. Example of Semantic tag are <article>, <header>, <footer>, <main> and others. Such as non semantic tag are <div>, <span>. Semantic element helps to create SEO friendly application. Semantic element follow some rule to set content. Where no rule follow the non semantic. \r\n"
   },
   {
     "id": "624adeb13e3011521ef9050c",
