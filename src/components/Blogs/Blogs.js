@@ -11,7 +11,7 @@ const Blogs = () => {
 
     return (
 
-        <div className='blog-container container mx-auto grid md:grid-cols-3'>
+        <div className='blog-container container mx-auto grid md:grid-cols-3 gap-5 py-24 px-5 md:px-0'>
             {
                 blogData.map(item => <Blog key={item.id} item={item}></Blog>)
             }
