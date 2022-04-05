@@ -3,6 +3,7 @@ import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 
 const Reviews = () => {
+    // Use custom hook to get review data
     const [reviews] = useReviews()
     return (
         <div className='py-24 px-5 md:px-0'>
