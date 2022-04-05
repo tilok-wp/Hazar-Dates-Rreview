@@ -14,13 +14,12 @@ const ProductBanner = () => {
                 <p>Our Nature Organic Hajar Dates are plump and handpicked from trees in the hot Tunisian desert where the cool underground water tickles their dried date toes.
                 </p>
                 <ul className='mt-3'>
-                    <li> <CheckCircleIcon class="inline-block h-4 mr-2 w-4 text-blue-500" />NATURALLY SWEET AND DELICIOUS</li>
-                    <li> <CheckCircleIcon class="inline-block h-4 mr-2 w-4 text-blue-500" />GUILT FREE</li>
-                    <li> <CheckCircleIcon class="inline-block h-4 mr-2 w-4 text-blue-500" />ORGANIC DRIED DATES</li>
+                    <li> <CheckCircleIcon className="inline-block h-4 mr-2 w-4 text-blue-500" />NATURALLY SWEET AND DELICIOUS</li>
+                    <li> <CheckCircleIcon className="inline-block h-4 mr-2 w-4 text-blue-500" />GUILT FREE</li>
+                    <li> <CheckCircleIcon className="inline-block h-4 mr-2 w-4 text-blue-500" />ORGANIC DRIED DATES</li>
                 </ul>
                 <div>
                     <Link className='bg-blue-400 hover:bg-blue-600 px-3 py-2 mt-3 text-white  rounded inline-block' to={'/reviews'}> Learn more </Link>
-
                 </div>
 
             </div>

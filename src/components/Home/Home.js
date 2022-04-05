@@ -9,7 +9,7 @@ const Home = () => {
 
     const homeReview = reviews.length > 3 ? reviews.slice(0, 3) : reviews
     return (
-        <div>
+        <div className='home-container'>
             <ProductBanner></ProductBanner>
             <div className='home-review-container py-24 px-5 md:px-0'>
                 <h3 className='text-center text-3xl'>Customer's Reviews {homeReview.length}</h3>
@@ -28,8 +28,6 @@ const Home = () => {
                 }
 
             </div>
-
-
         </div>
     );
 };
