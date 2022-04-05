@@ -5,12 +5,9 @@ import ProductBanner from '../ProductBanner/ProductBanner';
 import Review from '../Review/Review';
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews()
+    const [reviews] = useReviews()
 
     const homeReview = reviews.length > 3 ? reviews.slice(0, 3) : reviews
-    console.log(homeReview)
-
-
     return (
         <div>
             <ProductBanner></ProductBanner>
